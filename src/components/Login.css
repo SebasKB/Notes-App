@@ -1,0 +1,59 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    background: linear-gradient(to bottom right, #3498db, #9b59b6); /* Fondo degradado de azul a violeta/morado */
+  }
+  
+  .login-box {
+    background-color: #1f1e1e; /* Color del cuadro de inicio de sesión */
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px; /* Ancho del cuadro de inicio de sesión */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto elevado */
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 10px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-box button {
+    background-color: #5d6061;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transición para el color de fondo al pasar el ratón */
+  }
+  
+  .login-box button:hover {
+    background-color: #212324; /* Color de fondo al pasar el ratón */
+  }
+  
